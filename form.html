@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is Google Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    <link rel="shortcut icon" type="image/jpg" href="https://static.vecteezy.com/system/resources/previews/000/338/042/non_2x/vector-document-icon.jpg"/>
+  </head>
+  <body>
+    <div class="form">
+      <div class="title-div">
+        <h1>Assignment Task</h1>
+        <p>This is a google form. This form is created with HTML and CSS.</p>
+        <p class="required">*Required</p>
+      </div>
+  
+    <div class="form-container">
+      <form>
+        <div class="form-group">
+          <div class="form-g-q">
+            <label>MCQ <span class="required">*</span></label>
+          </div>
+          
+          <div class="option-container">
+            <div class="individual-options">
+              <input type="radio" name="mcq" value="option1" />
+
+              <label>Option 1</label>
+            </div>
+            <div class="individual-options">
+              <input type="radio" name="mcq" value="option2" />
+              <label>Option 2</label>
+            </div>
+            <div class="individual-options">
+              <input type="radio" name="mcq" value="option3" />
+              <label>Option 3</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-g-q">
+            <label>Checkbox Question<span class="required">*</span></label>
+          </div>
+        
+          <div class="option-container">
+            <div class="individual-options">
+              <input type="checkbox" name="mcq" value="option1" />
+
+              <label>Option 1</label>
+            </div>
+            <div class="individual-options">
+              <input type="checkbox" name="mcq" value="option2" />
+              <label>Option 2</label>
+            </div>
+            <div class="individual-options">
+              <input type="checkbox" name="mcq" value="option3" />
+              <label>Option 3</label>
+            </div>
+          </div>
+        </div>
+        <div class="answer-div">
+          <div class="name">Short Answer <span class="required">*</span></div>
+          <div class="input-div">
+            <input type="input" name="answer" placeholder="Your answer" />
+          </div>
+        </div>
+        <div class="paragraph-div">
+          <div class="name">ParaGraph <span class="required">*</span></div>
+          <div class="input-div">
+            <input type="input" name="answer" placeholder="Your answer" />
+          </div>
+        </div>
+        <div class="form-group drop">
+          <div class="dd">
+            <label>Drop down <span class="required">*</span></label>
+          </div>
+            <div class="opt">
+              <select name="dropdown" class="dropdown">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+              </select>
+            </div>
+          </div>
+        <div class="form-group file">
+          <label>File Upload <span class="required">*</span> </label>
+          <div class="addfile">
+            <input type="file" id="fileInput" class="file-input"/>
+            <label for="fileInput" class="file-label"> Add File</label>
+          </div>
+        </div>
+        <div class="form-group ls">
+          <div class="ls-head">
+            <label>Linear Scale<span class="required">*</span> </label>
+          </div>
+          <div class="lsbody">
+            <div class="count">
+              <label> </label>
+              <label>1</label>
+              <label>2</label>
+              <label>3</label>
+              <label>4</label>
+              <label>5</label>
+              <label> </label>
+            </div>
+            <div class="wb">
+              <label>Worst</label>
+              <input type="radio" name="linear-scale" value="1" />
+              <input type="radio" name="linear-scale" value="2" />
+              <input type="radio" name="linear-scale" value="3" />
+              <input type="radio" name="linear-scale" value="4" />
+              <input type="radio" name="linear-scale" value="5" />
+              <label>Best</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group mcg">
+          <div class="ls-head">
+            <label>Multi-Choice Grid <span class="required">*</span> </label>
+          </div>
+          <div class="lsbody2">
+            <div class="cols">
+              <div class="emp1"></div>
+              <label>Column1</label>
+              <label>Column2</label>
+              <label>Column3</label>
+            </div>
+            <div class="rows">
+              <label>Row 1</label>
+              <input type="radio" name="grid-row1" value="column1" />
+              <input type="radio" name="grid-row1" value="column2" />
+              <input type="radio" name="grid-row1" value="column3" />
+            </div>
+            <div class="rows">
+              <label>Row 2</label>
+              <input type="radio" name="grid-row2" value="column1" />
+              <input type="radio" name="grid-row2" value="column2" />
+              <input type="radio" name="grid-row2" value="column3" />
+            </div>
+            <div class="rows">
+              <label>Row 3</label>
+              <input type="radio" name="grid-row3" value="column1" />
+              <input type="radio" name="grid-row3" value="column2" />
+              <input type="radio" name="grid-row3" value="column3" />
+            </div>
+          </div>
+        </div>
+        <div class="form-group mcg">
+          <div class="ls-head">
+            <label>Multi-Choice Grid <span class="required">*</span> </label>
+          </div>
+          <div class="lsbody2">
+            <div class="cols">
+              <div class="emp1"></div>
+              <label>Column1</label>
+              <label>Column2</label>
+              <label>Column3</label>
+            </div>
+            <div class="rows">
+              <label>Row 1</label>
+              <input type="checkbox" name="grid-row1" value="column2" />
+              <input type="checkbox" name="grid-row1" value="column3" />
+              <input type="checkbox" name="grid-row1" value="column1" />
+            </div>
+            <div class="rows">
+              <label>Row 2</label>
+              <input type="checkbox" name="grid-row2" value="column1" />
+              <input type="checkbox" name="grid-row2" value="column2" />
+              <input type="checkbox" name="grid-row2" value="column3" />
+            </div>
+            <div class="rows">
+              <label>Row 3</label>
+              <input type="checkbox" name="grid-row3" value="column1" />
+              <input type="checkbox" name="grid-row3" value="column2" />
+              <input type="checkbox" name="grid-row3" value="column3" />
+            </div>
+          </div>
+        </div>
+        <div class="ftr">
+          <div class="butn">
+            <input class="btn" type="submit" name="Submit">
+          </div>
+          <div class="midprt">
+            <div class="grnbar1">
+              <div class="grnbr"></div>
+            </div>
+            
+            <div class="pgno"> page 1 of 1</div>
+          </div>
+          <div class="clrfrm">
+            <label>clear form</label>
+          </div>
+        </div>
+        <div class="ps">
+          Never submit passwords through Google Forms.
+        </div>
+        <div class="dis">
+          This content is neither created nor endorsed by Google. Report Abuse - Terms of Service - Privacy Policy
+        </div>    
+      </form>
+    </div>
+  </body>
+</html>
